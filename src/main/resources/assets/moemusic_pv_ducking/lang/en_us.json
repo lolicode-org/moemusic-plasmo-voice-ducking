@@ -1,0 +1,11 @@
+{
+  "plugin.moemusic_pv_ducking": "Plasmo Voice Ducking",
+  "config.moemusic_pv_ducking.enabled": "Enable ducking",
+  "config.moemusic_pv_ducking.enabled.tooltip": "Lower MoeMusic volume while at least one Plasmo Voice speaker is actively audible on this client.",
+  "config.moemusic_pv_ducking.volume_mode": "Volume mode",
+  "config.moemusic_pv_ducking.volume_mode.tooltip": "Choose whether ducking caps MoeMusic to a fixed percent value or scales it to a percent of the configured MoeMusic volume.",
+  "config.moemusic_pv_ducking.volume_mode.fixed_percent": "Fixed volume cap",
+  "config.moemusic_pv_ducking.volume_mode.percent_of_current": "Percent of configured volume",
+  "config.moemusic_pv_ducking.value": "Ducking value",
+  "config.moemusic_pv_ducking.value.tooltip": "0-100. In fixed mode this is a cap, not a boost target: effective volume never exceeds MoeMusic's configured volume. In percent mode it scales the configured volume by this percent while speakers are active."
+}

@@ -1,0 +1,11 @@
+{
+  "plugin.moemusic_pv_ducking": "Plasmo Voice 语音避让",
+  "config.moemusic_pv_ducking.enabled": "自动降低 MoeMusic 音量",
+  "config.moemusic_pv_ducking.enabled.tooltip": "当客户端监听到至少一个活动的 Plasmo Voice 说话者时，自动降低 MoeMusic 音量。",
+  "config.moemusic_pv_ducking.volume_mode": "音量模式",
+  "config.moemusic_pv_ducking.volume_mode.tooltip": "选择将 MoeMusic 音量限制在固定百分比上限，或按当前配置音量的百分比缩放。",
+  "config.moemusic_pv_ducking.volume_mode.fixed_percent": "固定音量上限",
+  "config.moemusic_pv_ducking.volume_mode.percent_of_current": "配置音量百分比",
+  "config.moemusic_pv_ducking.value": "避让后音量",
+  "config.moemusic_pv_ducking.value.tooltip": "取值范围 0-100。在固定音量模式下决定音量的上限：实际播放音量将取该配置值与 MoeMusic 主音量的较小值。在百分比模式下，当有人说话时，音量将缩放至主音量的对应百分比。"
+}
