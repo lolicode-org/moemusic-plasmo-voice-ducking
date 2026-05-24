@@ -16,9 +16,6 @@ A standalone, client-side only plugin for [MoeMusic](https://github.com/lolicode
 
 This plugin runs entirely on the client. Do **not** install it on a dedicated server.
 
-> [!WARNING]
-> This plugin requires both **MoeMusic** and **Plasmo Voice** to be installed on your client. If either mod is missing, the client will fail to start and throw a `NoClassDefFoundError` during class loading.
-
 1. Obtain the plugin JAR file (e.g., `moemusic-plasmo-voice-ducking-<version>.jar`).
    - *If compiling from source:* Run `./gradlew build` in the project root. The compiled JAR will be located in `build/libs/`.
 2. Place the JAR file into the `config/moemusic/plugins/` directory of your Minecraft client instance.
@@ -36,11 +33,11 @@ After launching the game once with the plugin installed, a configuration file wi
 
 ### Configuration Options
 
-| Option | Type | Default | Description |
-| :--- | :--- | :--- | :--- |
-| `enabled` | Boolean | `true` | Enable or disable the audio ducking behavior. |
-| `volume_mode` | String | `"PERCENT_OF_CURRENT"` | The mode used to lower volume. See details below. |
-| `value` | Integer | `25` | Ducking target/scaling value (from `0` to `100`). |
+| Option        | Type    | Default                | Description                                       |
+|:--------------|:--------|:-----------------------|:--------------------------------------------------|
+| `enabled`     | Boolean | `true`                 | Enable or disable the audio ducking behavior.     |
+| `volume_mode` | String  | `"PERCENT_OF_CURRENT"` | The mode used to lower volume. See details below. |
+| `value`       | Integer | `25`                   | Ducking target/scaling value (from `0` to `100`). |
 
 #### Volume Modes
 - `"PERCENT_OF_CURRENT"`: Proportional scaling (Default). Scales the current music volume by the `value` percentage (e.g., if set to `25`, volume is reduced to 25% of its current level).

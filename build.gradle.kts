@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "org.lolicode.moemusic.pvducking"
-version = "1.0.0"
+version = "1.1.0"
 
 kotlin {
     compilerOptions {
@@ -37,6 +37,7 @@ dependencies {
     compileOnly("org.lolicode.moemusic:api:1.0.0")
     compileOnly("su.plo.voice.api:client:2.1.9")
     compileOnly("org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.11.0")
+    compileOnly("org.slf4j:slf4j-api:2.0.17")
 
     testImplementation(kotlin("test"))
     testImplementation("org.junit.jupiter:junit-jupiter:6.0.3")
