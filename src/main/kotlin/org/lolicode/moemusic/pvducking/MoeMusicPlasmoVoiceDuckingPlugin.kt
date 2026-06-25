@@ -12,7 +12,7 @@ import su.plo.voice.api.addon.ClientAddonsLoader
 
 object MoeMusicPlasmoVoiceDuckingPlugin : Plugin {
     const val MOD_ID = "moemusic_pv_ducking"
-    const val VERSION = "1.0.0"
+    const val VERSION = "1.2.0"
 
     override val id: String = MOD_ID
 
@@ -40,7 +40,7 @@ object MoeMusicPlasmoVoiceDuckingPlugin : Plugin {
 
     override val version: String = VERSION
 
-    override val supportedApiVersions: String = ">=1.0.0 <2.0.0"
+    override val supportedApiVersions: String = ">=2.0.0 <3.0.0"
 
     override fun onClientRuntimeLoad(ctx: ClientRuntimeContext) {
         val initialConfig = ctx.loadConfig(configSpec).normalized()
